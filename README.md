@@ -6,7 +6,7 @@
 
 **File Description:**
 
-**Instructions.txt ->** Instructions that will frequently used in mysql.
+**Instructions.txt ->** Instructions that will frequently used in mysql (The example code are based on Hw1).
 
 **HW/Hw1 ->** Implement a .csv file into mysql. Also, becasuse there are Chinese in the file, it is necessary to encode in a proper way. You are able to print all the content in .csv file properly and also find out
 
