@@ -1,6 +1,6 @@
 1. Open mysql: (1) mysql --user=root --password (2) Enter password
 
-2. Create a database: CREATE database_name;
+2. Create a database: CREATE DATABASE database_name;
 
 3. Assign which database to use: USE database_name;
 
@@ -10,17 +10,17 @@
 
 age DECIMAL(4,1) NULL -> means that age is a 4-digits float number with and exact value to the first decimal place
 
-6. Import a .csv file and encode it with 'big-5': LOAD DATA INFILE 'Hw1.csv'  INTO TABLE info  CHARACTER SET big5  FIELDS TERMINATED BY ','  ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+6. Import a .csv file and encode it with 'big-5': LOAD DATA INFILE 'Hw1.csv'  INTO TABLE table_name CHARACTER SET big5  FIELDS TERMINATED BY ','  ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
 
 7. Print all the contents in the table: SELECT * FROM table_name;
 
 8. Delete table: DROP TABLE table_name;
 
-9. Delete database: DROP TABLE database_name;
+9. Delete database: DROP DATABASE database_name;
 
 10. Restart mysql: service mysql restart;
 
 11. Quit mysql: \q
 
 
-**Note: In order to load a .csv file into your own database, it is essential to put your .csv file under /var/lib/mysql/
+**Note: In order to load a .csv file into your own database, it is essential to put your .csv file under /var/lib/mysql/database_name/
